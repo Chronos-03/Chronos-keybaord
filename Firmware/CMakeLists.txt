@@ -1,0 +1,18 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "matrix.c"
+        "encoder.c"
+    INCLUDE_DIRS
+        "."
+        "../config"
+    REQUIRES
+        esp_driver_gpio
+        esp_driver_pcnt
+        esp_rom
+        esp_timer
+        esp_common
+        log
+        nvs_flash
+        freertos
+)
