@@ -79,7 +79,7 @@ The case uses a custom 3D-printed top plate and bottom shell designed for standa
 | Capacitors | for the component electrical stability | 30 | $0.01 | $0.30 | [Ktron](https://www.ktron.in/product/resistor-30k-ohms-1-1-8w-smd-0805/) |
 | Gateron Oil King | Switches | 5 | $2.58 | $12.90 | [Meckeys](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/akko-v3-pro-cream-black-switch/) |
 | PCB | Component Housing | 1 | $45.00 | $45.00 | [Zbotic](https://zbotic.in/pcb-manufacturing/) |
-| Case | housing of all electronics | 1 | $20.00 | $20.00 | [Printing legion](https://www.google.com/search?q=Printing+Legion+3D+printing) |
+| Case | housing of all electronics | 1 | 0| 0| OWN |
 | 1.8 TFT display | Display | 2 | $3.19 | $6.38 | [Robu.in](https://robu.in/product/smartelex-1-8-tft-display-128x160/) |
 | Slide Switch | Power Control | 2 | $0.12 | $0.24 | [Ktron.in](https://www.ktron.in/?post_type=product&s=Slide+Switch) |
 | smdswitches | rebbot and flash | 1 | $0.21 | $0.21 | [MakerBAzar](https://makerbazar.in/products/micro-tactile-tact-keys-tasten-smd-push-side-button-schalter) |
