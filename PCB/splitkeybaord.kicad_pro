@@ -541,7 +541,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../../../GitHub/Split-keyboard/Fabrication/",
+      "plot": "../../../../GitHub/Split-keyboard/check/",
       "specctra_dsn": "",
       "step": "splitkeybaord.step",
       "vrml": ""
@@ -686,7 +686,7 @@
         "uuid": "667832f1-ce12-4971-b6ce-e9db115b7c92"
       }
     ],
-    "used_designators": "#FLG1-10,J1-8,LED1-42,USBC1-4,R1-74,F1-2,SW1-52,C1-20,U1-6,Q1-2,D1-42,#PWR1-66",
+    "used_designators": "#FLG1-10,J1-8,LED1-42,USBC1-4,R1-74,F1-2,SW1-52,C1-20,U1-6,#PWR1-66,D1-42,Q1-2",
     "variants": []
   },
   "sheets": [
