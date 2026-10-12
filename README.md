@@ -39,6 +39,7 @@ Integrated RC522 Mini RFID reader for NFC interactions (like secure unlocking) a
 
 ## Full Schematics & PCB Layout
 
+
 * **Schematic - Left Half:** ![Left Schematic](Images/Lefthalf.png)
 * **Schematic - Right Half:** ![Right Schematic](Images/RightHalf.png)
 * **PCB Layout & Populated Board:** ![PCB Render](Images/PCB.png)
