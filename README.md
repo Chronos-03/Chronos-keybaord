@@ -59,7 +59,7 @@ The case uses a custom 3D-printed top plate and bottom shell designed for standa
 
 ## Firmware
 
-The provided firmware establishes the core wirelessinfrastructure for the keybaord.
+The provided firmware establishes the core wireless infrastructure for the keybaord.
 * **Split Architecture & Communication:** 
   * Uses **ESP-NOW** for low-latency wireless peer-to-peer communication between the left and right halves when running on battery.
   * Automatically switches to a wired **UART interconnect** over the USB-C cable when connected.
