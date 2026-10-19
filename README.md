@@ -74,6 +74,7 @@ The provided firmware establishes the core wireless infrastructure for the keyba
 
 ## Bill of Materials
 
+
 | Part | Description | Qty | Unit Cost | Total Cost | Vendor |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ESP32-S3-WROOM-1 Module | MCU | 2 | $4.37 | $8.74 | [Robu.in](https://robu.in/product/espressif-esp32-s3-wroom-1-n16r8-module/) |
