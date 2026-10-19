@@ -59,7 +59,18 @@ The case uses a custom 3D-printed top plate and bottom shell designed for standa
 
 ## Firmware
 
-**Note: The firmware is made by Ai and  currently in development and has not yet been approved or fully tested. We will update this repository with the finalized firmware files and flashing instructions once the physical hardware is fully assembled and ready.It's my promise i will hand coded firmware and the best firmare once the keybaord will be complete in real**
+The provided firmware establishes the core wirelessinfrastructure for the keybaord.
+* **Split Architecture & Communication:** 
+  * Uses **ESP-NOW** for low-latency wireless peer-to-peer communication between the left and right halves when running on battery.
+  * Automatically switches to a wired **UART interconnect** over the USB-C cable when connected.
+* **Matrix Scanning:** 
+  * Configured for a **COL2ROW Active-LOW** matrix scanning routine, fully matched to the onboard diode directions (`D1`–`D41`) and the 4-row by 6-column physical layout[cite: 2].
+* **Wireless HID Output:** 
+  * The central/master half captures local keystrokes and incoming remote packets, translating them into standard HID output over **Bluetooth Low Energy (BLE)** using the `BleKeyboard` library.
+
+
+**Development Note:**
+**This firmware is currently an untested starter draft.** It is provided as a foundational template and testing version . Full end-to-end testing, feature integration, and fine-tuning will be completed once the hardware production will be complete, i will make sure to update firmware as soon as i will done with the hardware.
 
 ## Bill of Materials
 
